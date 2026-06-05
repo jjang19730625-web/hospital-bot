@@ -10,7 +10,7 @@ function getOpenAI() {
     apiKey: process.env.OPENROUTER_API_KEY ?? 'placeholder',
     defaultHeaders: {
       'HTTP-Referer': process.env.NEXT_PUBLIC_APP_URL || 'https://hospital-bot.vercel.app',
-      'X-Title': '병원 AI 환자 상담봇',
+      'X-Title': 'Hospital AI Consultation Bot',
     },
   });
 }
